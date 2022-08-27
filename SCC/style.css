@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navigation_bar{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(240, 255, 247);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+}
+.logo{
+    margin-left: 20vh;
+    margin-top: 2vh;
+    text-decoration: none;
+}
+.list{
+    margin-right: 10vh;
+    margin-top: 2vh;
+    
+}
+
+.drop_down_list{
+    text-decoration: none;
+
+}
+.drop_down_list_item{
+margin-top: 1.9vh;
+list-style: none;
+background-color:  rgb(240, 255, 247);
+position: absolute;
+z-index: 50;
+width: 13vh;
+text-align: center;
+display: flex;
+flex-direction: column;
+height: 0px;
+overflow: hidden;
+padding-top: 5x;
+
+}
+.drop_down_list_item a{
+    height: 5vh;
+    text-decoration: none;
+    
+}
+.drop_down_list:focus ~ .drop_down_list_item{
+    height: auto;
+    transition: height 0.3s ease;
+    
+}
+.drop_down_list_item:hover{
+    height: auto;
+}
+
+
+.list_item{
+    margin-top: 0.4vh;
+    width: 100%;
+    height: auto;
+   
+}
+.list_item:hover{
+   color: red;
+}
+
+ section{
+    height: 105vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: black;
+ }
+
+ .chart{
+    width: 90%;
+    height: 90vh;
+    background-color: rgb(66, 66, 66);
+    border: 1px solid;
+    border-color: white;
+    border-top: none;
+    border-right: none;   
+    position: relative;
+    display: flex;
+   
+}
+
+   
+.chart span{
+    font-size: 12px;
+}
+
+.x_axel {
+color: white;
+position: absolute;
+width: 100%;
+height: 85vh;
+display: flex;
+flex-direction: column-reverse;
+justify-content: space-between;
+bottom: 5.17;
+
+
+}
+.x_axel li
+{
+    list-style: none;
+    width: 100%;
+    border-bottom: 0.01vh solid white;
+    height: 4vh;  
+}
+.x_axel li span{
+    position: absolute;
+    left: -5vh;
+}
+.x_axel li::before{
+    content: ' ';
+    width: 1.4vh;
+    position: absolute;
+    border-bottom: 1px solid white;
+    left:-1.62vh;
+    transform: skewY(45deg);
+    margin-top: 3.18vh;
+}
+
+.Y_axel{
+    color: white;
+    position: absolute;
+    width: 98.8%;
+    display: flex; 
+    flex-direction: row;
+    bottom: -5vh;
+    text-align: center;
+    justify-content: space-between;
+    left:1vh;
+  
+    
+}
+  
+.bar{
+    width: 8vh;
+    height: 95vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+}
+.lines{
+    height: 91.4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; 
+    padding-left: 1.1vh;   
+}
+.males{
+     width: 2vh;
+     background-color:#A82A76;
+     bottom: 1vh;
+    
+}
+
+.femels{
+    width: 2vh;
+    background-color: #705FB8;
+}
+.code{
+    margin-top: 0.4vh;
+    height: 4.7vh;
+}
+.foot{
+    height: 5vh;
+    background-color: black;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.sex{
+    width: 20vh;
+    height: 4vh;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;   
+}
+.M_color{
+    width: 1.5vh;
+    height: 1.5vh;
+    margin-top: 0.5vh;
+    margin-left: 9vh;
+    background-color:#A82A76;
+}
+.F_color
+{   width: 1.5vh;
+    height: 1.5vh;
+    margin-top: 0.5vh;
+    margin-left: 9vh;
+    background-color: #705FB8;
+}
+
+.text{
+    width: 8vh;
+    height: 3vh;
+    color: white;
+}
+
+
+
+   
+
+
