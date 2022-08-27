@@ -6,22 +6,23 @@
 }
 .navigation_bar{
     width: 100%;
-    height: 7vh;
+    height: 5vh;
     background-color: rgb(240, 255, 247);
     color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     justify-items: center;
+    color: blue;
 }
 .logo{
     margin-left: 20vh;
-    margin-top: 2vh;
+    margin-top: 1vh;
     text-decoration: none;
 }
 .list{
     margin-right: 10vh;
-    margin-top: 2vh;
+    margin-top: 1vh;
     
 }
 
@@ -30,7 +31,7 @@
 
 }
 .drop_down_list_item{
-margin-top: 1.9vh;
+margin-top: 1.4vh;
 list-style: none;
 background-color:  rgb(240, 255, 247);
 position: absolute;
@@ -89,6 +90,7 @@ padding-top: 5x;
     border-right: none;   
     position: relative;
     display: flex;
+    margin-top: -10vh;
    
 }
 
@@ -188,7 +190,8 @@ bottom: 5.17;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    justify-items: center;   
+    justify-items: center;  
+    margin-top: -8vh; 
 }
 .M_color{
     width: 1.5vh;
